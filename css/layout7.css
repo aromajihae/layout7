@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 15%;
+    height: 100%;
+  
+}
+
+aside, main {
+    float: left;
+    /* overflow: hidden; */
+}
+
+.icon {
+    
+    padding: 5px 10px;
+    background-color: black;
+}
+
+
+.icon a {
+  
+    font-size: 25px;
+    color: white;
+    padding: 5px 30px;
+}
+
+.icon a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+/* aside .icon {
+width: 100%;
+    background-color: black;
+    
+}
+
+.icon {
+    background-color: black;
+    padding: 0;
+}
+.icon li {
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    
+    list-style: none;
+    
+}
+.icon li a {
+    font-size: 25px;
+    padding: 15px 35.5px;
+    color: white;
+    background-color: black;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+nav li::after {
+    content: "";
+    display: none;
+    clear: both;
+} */
+
+
+.logo {
+    padding: 7px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.logo:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+img {
+    width: 220px;
+    /* padding: 5px 0px; */
+}
+
+.menu li {
+    padding: 10px;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    /* font-weight: 600; */
+    font-size: 20px;
+}
+
+.menu ul li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+main {
+    width: 85%;
+    
+}
+
+header {
+    width: 100%;
+    /* height: 200px; */
+    background-color: rgb(27, 177, 90);
+    font-size: 50px;
+    padding: 95px 150px;
+    color: white;
+    text-align: center;
+}
+
+section div {
+    background-color: rgb(240, 240, 240);
+
+}
+
+section .css {
+    padding: 25px 25px;
+    margin-top: 15px;
+}
+
+section .css h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+section .css p {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+section .java {
+    padding: 25px 25px;
+    margin-top: 15px;
+}
+
+section .java h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+section .java p {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+button {
+    border-style: none;
+    background-color: rgb(27, 177, 90);
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+section .ex .brown {
+    color: brown;
+}
+
+section .ex .red {
+    color: red;
+}
+
+section .ex .blue {
+    color: blue;
+}
+section .ex .green { 
+    color: green;
+}
+
+section .ex {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: white;
+    border-left: 3px solid green;
+}
+
+section .footer {
+    margin-top: 15px;
+    padding: 25px;
+}
+section .footer a {
+    color: gray;
+}
+
+
+
